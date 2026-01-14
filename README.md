@@ -1,4 +1,4 @@
-# lava-car-estilos- <!DOCTYPE html>
+# lava-car-estilos- 
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
