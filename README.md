@@ -191,7 +191,7 @@
       </div>
       <div>
         <strong>Contato</strong>
-        <p>WhatsApp: (35)9104-5222</p>
+        <p>WhatsApp: (35)99104-5222</p>
         <p>E-mail: contato@lavacarestilos.com</p>
       </div>
       <div>
