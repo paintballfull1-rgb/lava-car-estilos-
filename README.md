@@ -289,7 +289,7 @@
 </head>
 <body>
   <h2>Fale conosco pelo WhatsApp</h2>
-  <a class="whatsapp-button" href="https://wa.me/553591045222" target="_blank">
+  <a class="whatsapp-button" href="https://wa.me/5535991045222" target="_blank">
     📞 Iniciar chamada no WhatsApp
   </a>
 </body>
