@@ -25,37 +25,7 @@
         </ul>
       </nav>
     </div>
-  </header>body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  background: #f0f8ff;
-  color: #333;
-}
-
-header {
-  background: linear-gradient(90deg, #0077b6, #00b4d8);
-  color; #66ffff;
-  padding: 20px;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
-
-button {
-  background: #0077b6;
-  color: #ff66ff ;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-button:hover {
-  background: #023e8a;
-  transform: scale(1.05);
-}
+  </header>body 
   
 
   <section id="home" class="hero">
