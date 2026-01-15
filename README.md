@@ -221,12 +221,6 @@
       color: white;            /* texto em branco para contraste */
       font-family: Arial, sans-serif;
     }
-  </style>
-</head>
-<body>
-  <h1>Bem-vindo ao Lava Carros</h1>
-  <p>Agora o fundo do site está verde!</p>
-</body>
-</html>
+  
  
  
