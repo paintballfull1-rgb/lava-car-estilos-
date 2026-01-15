@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Lava homens gays </title>
-  <meta name="description" content="Lava Car Estilos: estética automotiva completa em Borda da Mata, MG. Agende seu horário com o gerente Alex." />
+  <meta name="description" content="Lava Gays homens Estilos: estética automotiva completa em Borda da Mata, MG. Agende seu horário com o gerente Alex." />
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
