@@ -277,6 +277,34 @@
     }
   </script>
 </body>
+</html><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato via WhatsApp</title>
+  <style>
+    .whatsapp-button {
+      background-color: #25D366;
+      color: white;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
+</head>
+<body>
+  <h2>Fale conosco pelo WhatsApp</h2>
+  <a class="whatsapp-button" href="https://wa.me/5511999999999" target="_blank">
+    📞 Iniciar chamada no WhatsApp
+  </a>
+</body>
 </html>
 
 
