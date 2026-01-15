@@ -1,5 +1,25 @@
 # lava rapido trans.
+<html lang="pt-BR"><!DOCTYPE html>
 <html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Logo Lava Carros</title>
+  <style>
+    body {
+      text-align: center;
+      background-color: #f5f5f5;
+    }
+    img {
+      width: 300px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bem-vindo ao Lava Carros</h1>
+  <img src="https://copilot.microsoft.com/th/id/BCO.d352f746-b319-4283-b6d6-f8bcc6475257.png" alt="Logo Lava Carros">
+</body>
+</html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
