@@ -24,7 +24,7 @@
         </ul>
       </nav>
     </div>
-  </header>body 
+  </header>
   
 
   <section id="home" class="hero">
