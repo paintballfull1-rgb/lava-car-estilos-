@@ -5,10 +5,7 @@
   <meta charset="UTF-8">
   <title>Logo Lava Carros</title>
   <style>
-    body {
-      text-align: center;
-      background-color: #6600ff
-    }
+  
     img {
       width: 300px;
       height: auto;
