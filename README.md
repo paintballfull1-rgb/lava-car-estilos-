@@ -306,7 +306,24 @@
   </a>
 </body>
 </html>
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Site com fundo verde</title>
+  <style>
+    body {
+      background-color: green; /* troca a cor do fundo para verde */
+      color: white; /* opcional: deixa o texto branco para contraste */
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bem-vindo ao meu site!</h1>
+  <p>Este site tem o fundo verde.</p>
+</body>
+</html>
 
   
  
