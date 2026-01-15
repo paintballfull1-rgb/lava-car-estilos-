@@ -5,11 +5,6 @@
   <meta charset="UTF-8">
   <title>Logo Lava Carros</title>
   <style>
-  
-    img {
-      width: 300px;
-      height: auto;
-    }
   </style>
 </head>
 <body>
