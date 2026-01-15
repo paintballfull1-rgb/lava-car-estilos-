@@ -12,7 +12,7 @@
 </head>
   <header class="topbar">
     <div class="container">
-      <a href="#" class="logo">Lava Car Estilos</a>
+      <a href="#" class="logo">Lava Gays Estilos</a>
       <nav class="nav">
         <button class="nav-toggle" aria-label="Abrir menu">☰</button>
         <ul class="nav-list">
