@@ -206,16 +206,66 @@
 
   <button class="whatsapp-fab" aria-label="Abrir WhatsApp">
     💬
-  </button><h2>Nosso Local</h2>
-<iframe 
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.123456789!2d-46.123456!3d-23.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x000000000000000%3A0x000000000000000!2sLava%20Carros%20Premium!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
-  width="600" 
-  height="450" 
-  style="border:0;" 
-  allowfullscreen="" 
-  loading="lazy">
-</iframe>
-  
+  </button> <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lava Carros - Localização</title>
+  <style>
+    #map {
+      height: 500px;
+      width: 100%;
+    }
+    .btn-rota {
+      margin: 20px auto;
+      display: block;
+      padding: 12px 20px;
+      background: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+    .btn-rota:hover {
+      background: #023e8a;
+      transform: scale(1.05);
+    }
+  </style>
+  <!-- Carregar API do Google Maps (substitua SUA_CHAVE_API pela sua chave) -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API&callback=initMap" async defer></script>
+</head>
+<body>
+  <h2>Encontre o Lava Carros Premium</h2>
+  <div id="map"></div>
+  <button class="btn-rota" onclick="abrirRota()">Traçar Rota</button>
+
+  <script>
+    let local = {lat: -22.2700, lng: -46.1667}; // exemplo: Borda da Mata - MG
+    let map, marker;
+
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        center: local
+      });
+
+      marker = new google.maps.Marker({
+        position: local,
+        map: map,
+        title: 'Lava Carros Premium',
+        animation: google.maps.Animation.BOUNCE // marcador animado
+      });
+    }
+
+    function abrirRota() {
+      // Abre o Google Maps com rota até o local
+      window.open(`https://www.google.com/maps/dir/?api=1&destination=${local.lat},${local.lng}`, '_blank');
+    }
+  </script>
+</body>
+</html>
 
 
   
