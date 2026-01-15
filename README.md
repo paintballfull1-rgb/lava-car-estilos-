@@ -210,7 +210,23 @@
 
   <script src="script.js"></script>
 </body>
+</html><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Site Verde</title>
+  <style>
+    body {
+      background-color: green; /* muda o fundo para verde */
+      color: white;            /* texto em branco para contraste */
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bem-vindo ao Lava Carros</h1>
+  <p>Agora o fundo do site está verde!</p>
+</body>
 </html>
-#   t r a n s f e r i r - v s c o d e - - g i t h u b 
  
  
