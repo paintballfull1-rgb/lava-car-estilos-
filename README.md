@@ -7,7 +7,7 @@
   <style>
     body {
       text-align: center;
-      background-color: #f5f5f5;
+      background-color: #6600ff
     }
     img {
       width: 300px;
