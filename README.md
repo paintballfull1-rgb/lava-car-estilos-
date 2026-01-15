@@ -34,7 +34,7 @@
 
 header {
   background: linear-gradient(90deg, #0077b6, #00b4d8);
-  color: white;
+  color: black;
   padding: 20px;
   text-align: center;
   position: fixed;
@@ -44,7 +44,7 @@ header {
 
 button {
   background: #0077b6;
-  color: white;
+  color: black;
   border: none;
   padding: 12px 20px;
   border-radius: 8px;
