@@ -206,7 +206,7 @@
 
   <button class="whatsapp-fab" aria-label="Abrir WhatsApp">
     💬
-  </button> <!DOCTYPE html>
+  </button>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
