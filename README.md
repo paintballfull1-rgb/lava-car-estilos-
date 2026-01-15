@@ -1,5 +1,5 @@
 # lava rapido trans.
-<html lang="pt-BR"><!DOCTYPE html>
+<html lang="pt-BR">
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
