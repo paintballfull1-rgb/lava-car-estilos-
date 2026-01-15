@@ -29,7 +29,7 @@
 
   <section id="home" class="hero">
     <div class="container hero-content">
-      <h1>Estética automotiva com padrão — Lava Car Estilos</h1>
+      <h1>Estética automotiva com padrão — Lava Gays Estilos</h1>
       <p>Atendimento cuidadoso, produtos de qualidade e acabamento impecável. Seu carro merece estilo.</p>
       <a href="#contato" class="btn btn-primary">Agendar agora</a>
     </div>
