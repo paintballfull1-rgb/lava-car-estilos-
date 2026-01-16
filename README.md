@@ -346,3 +346,43 @@ relatorio()
   
  
  
+
+
+import sqlite3
+
+# Conectar (ou criar) banco de dados
+conexao = sqlite3.connect("lava_carros.db")
+cursor = conexao.cursor()
+
+# Criar tabela de clientes
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS clientes (
+    id_cliente INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    telefone TEXT,
+    email TEXT,
+    placa_carro TEXT
+)
+""")
+
+# Inserir clientes
+cursor.execute("""
+INSERT INTO clientes (nome, telefone, email, placa_carro)
+VALUES ('João Silva', '35999999999', 'joao@email.com', 'ABC-1234')
+""")
+
+cursor.execute("""
+INSERT INTO clientes (nome, telefone, email, placa_carro)
+VALUES ('Maria Souza', '35988888888', 'maria@email.com', 'XYZ-9876')
+""")
+
+# Salvar alterações
+conexao.commit()
+
+# Consultar clientes
+cursor.execute("SELECT * FROM clientes")
+for cliente in cursor.fetchall():
+    print(cliente)
+
+# Fechar conexão
+conexao.close()
