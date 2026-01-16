@@ -310,7 +310,7 @@ faturamento = []
 
 def registrar_servico(cliente, servico):
     if servico not in servicos:
-        print("Serviço não encontrado!")
+        print("https://github.com/paintballfull1-rgb/lava-car-estilos-.git")
         return
     
     valor = servicos[servico]
