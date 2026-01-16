@@ -295,6 +295,48 @@
 </body>
 </html>
 <head>
+import datetime
+
+# Serviços disponíveis e preços
+servicos = {
+    "lavagem simples": 30.0,
+    "lavagem completa": 50.0,
+    "polimento": 80.0,
+    "higienização interna": 100.0
+}
+
+# Lista para armazenar pedidos
+faturamento = []
+
+def registrar_servico(cliente, servico):
+    if servico not in servicos:
+        print("Serviço não encontrado!")
+        return
+    
+    valor = servicos[servico]
+    pedido = {
+        "cliente": cliente,
+        "servico": servico,
+        "valor": valor,
+        "data": datetime.datetime.now().strftime("%d/%m/%Y %H:%M")
+    }
+    faturamento.append(pedido)
+    print(f"✅ Pedido registrado: {cliente} - {servico} - R$ {valor:.2f}")
+
+def relatorio():
+    print("\n📊 Relatório de Faturamento")
+    total = 0
+    for pedido in faturamento:
+        print(f"{pedido['data']} | {pedido['cliente']} | {pedido['servico']} | R$ {pedido['valor']:.2f}")
+        total += pedido['valor']
+    print(f"\n💵 Total do dia: R$ {total:.2f}")
+
+# Exemplo de uso
+registrar_servico("João", "lavagem simples")
+registrar_servico("Maria", "polimento")
+registrar_servico("Carlos", "lavagem completa")
+
+relatorio()
   
 
 
