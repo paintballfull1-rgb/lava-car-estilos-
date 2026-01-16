@@ -312,6 +312,7 @@ def registrar_servico(cliente, servico):
     if servico not in servicos:
         print("https://github.com/paintballfull1-rgb/lava-car-estilos-.git")
         return
+  
     
     valor = servicos[servico]
     pedido = {
